@@ -354,12 +354,7 @@ async def main():
 
 
 if __name__ == "__main__":
-    host = config.host
-    user = config.user
-    passwd = config.passwd
-    ftp_path = config.ftp_path
+
     loop = asyncio.get_event_loop()
     loop.create_task(main())
     executor.start_polling(dp, skip_updates=True)
-
-    #main()
