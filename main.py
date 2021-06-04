@@ -64,7 +64,7 @@ class MySea:
         import config
         self.host = config.host_sea
         self.user = config.user_sea
-        self.passwd = config.passwn_sea
+        self.passwd = config.passwd_sea
         self.repo_id =config.repo_id_sea
         self.path = '/data/'
         self.ftp = MyFtp()
